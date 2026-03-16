@@ -1,9 +1,11 @@
+aid: microsoft-office-suite
 name: Microsoft Office Suite APIs
 description: Collection of APIs for Microsoft Office Suite applications and services
 image: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2020/04/Microsoft365.png
 url: https://www.microsoft.com/en-us/microsoft-365
 created: '2024-01-15'
-modified: '2024-01-15'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis:
 - name: Microsoft Graph API
   description: Unified API endpoint for accessing Microsoft 365 services including Office applications, users, and data
@@ -138,9 +140,8 @@ apis:
   - type: Developer Portal
     url: https://dev.teams.microsoft.com/
 maintainers:
-- name: Microsoft
-  email: support@microsoft.com
-  url: https://www.microsoft.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
 tags:
 - Office
 - Microsoft 365

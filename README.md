@@ -1,28 +1,38 @@
-# Microsoft Office Suite APIs (microsoft-office-suite)
-Collection of APIs for Microsoft Office Suite applications and services
+# Microsoft Office Suite (microsoft-office-suite)
+
+Collection of APIs for Microsoft Office Suite applications and services.
 
 **URL:** [Visit APIs.json URL](https://www.microsoft.com/en-us/microsoft-365)
 
-## Tags:
+## Tags
 
- - Office, Microsoft 365, Productivity, Cloud, Collaboration, Documents, API
+- Cloud
+- Collaboration
+- Documents
+- Microsoft 365
+- Office
+- Productivity
 
 ## Timestamps
 
-- **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+- **Created:** 2024-01-15
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### Microsoft Graph API
-Unified API endpoint for accessing Microsoft 365 services including Office applications, users, and data
+Unified API endpoint for accessing Microsoft 365 services including Office applications, users, and data.
 
 **Human URL:** [https://developer.microsoft.com/en-us/graph](https://developer.microsoft.com/en-us/graph)
 
+**Base URL:** https://graph.microsoft.com/v1.0
 
-#### Tags:
+#### Tags
 
- - Office, Productivity, Microsoft 365, Graph
+- Graph
+- Microsoft 365
+- Office
+- Productivity
 
 #### Properties
 
@@ -33,14 +43,17 @@ Unified API endpoint for accessing Microsoft 365 services including Office appli
 - [Sandbox](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
 ### Word API (Office.js)
-JavaScript API for building add-ins and automating Microsoft Word
+JavaScript API for building add-ins and automating Microsoft Word.
 
 **Human URL:** [https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/word-add-ins-reference-overview](https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/word-add-ins-reference-overview)
 
+**Base URL:** https://officejs.org
 
-#### Tags:
+#### Tags
 
- - Word, Documents, Office Add-ins
+- Documents
+- Office Add-Ins
+- Word
 
 #### Properties
 
@@ -49,14 +62,17 @@ JavaScript API for building add-ins and automating Microsoft Word
 - [Code Samples](https://github.com/OfficeDev/Office-Add-in-samples)
 
 ### Excel API (Office.js)
-JavaScript API for building add-ins and automating Microsoft Excel
+JavaScript API for building add-ins and automating Microsoft Excel.
 
 **Human URL:** [https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview](https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview)
 
+**Base URL:** https://officejs.org
 
-#### Tags:
+#### Tags
 
- - Excel, Spreadsheets, Office Add-ins
+- Excel
+- Office Add-Ins
+- Spreadsheets
 
 #### Properties
 
@@ -65,14 +81,17 @@ JavaScript API for building add-ins and automating Microsoft Excel
 - [Code Samples](https://github.com/OfficeDev/Office-Add-in-samples)
 
 ### PowerPoint API (Office.js)
-JavaScript API for building add-ins and automating Microsoft PowerPoint
+JavaScript API for building add-ins and automating Microsoft PowerPoint.
 
 **Human URL:** [https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/powerpoint-add-ins-reference-overview](https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/powerpoint-add-ins-reference-overview)
 
+**Base URL:** https://officejs.org
 
-#### Tags:
+#### Tags
 
- - PowerPoint, Presentations, Office Add-ins
+- Office Add-Ins
+- PowerPoint
+- Presentations
 
 #### Properties
 
@@ -81,14 +100,18 @@ JavaScript API for building add-ins and automating Microsoft PowerPoint
 - [Code Samples](https://github.com/OfficeDev/Office-Add-in-samples)
 
 ### Outlook API (Office.js)
-JavaScript API for building add-ins and automating Microsoft Outlook
+JavaScript API for building add-ins and automating Microsoft Outlook.
 
 **Human URL:** [https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/outlook-add-ins-reference-overview](https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/outlook-add-ins-reference-overview)
 
+**Base URL:** https://officejs.org
 
-#### Tags:
+#### Tags
 
- - Outlook, Email, Calendar, Office Add-ins
+- Calendar
+- Email
+- Office Add-Ins
+- Outlook
 
 #### Properties
 
@@ -97,14 +120,18 @@ JavaScript API for building add-ins and automating Microsoft Outlook
 - [Code Samples](https://github.com/OfficeDev/Office-Add-in-samples)
 
 ### OneDrive API
-API for accessing and managing files stored in OneDrive
+API for accessing and managing files stored in OneDrive.
 
 **Human URL:** [https://learn.microsoft.com/en-us/onedrive/developer/](https://learn.microsoft.com/en-us/onedrive/developer/)
 
+**Base URL:** https://graph.microsoft.com/v1.0/me/drive
 
-#### Tags:
+#### Tags
 
- - OneDrive, Storage, Files, Cloud
+- Cloud
+- Files
+- OneDrive
+- Storage
 
 #### Properties
 
@@ -113,14 +140,18 @@ API for accessing and managing files stored in OneDrive
 - [SDKs](https://learn.microsoft.com/en-us/onedrive/developer/rest-api/getting-started/sdk)
 
 ### SharePoint REST API
-API for accessing and managing SharePoint sites, lists, and documents
+API for accessing and managing SharePoint sites, lists, and documents.
 
 **Human URL:** [https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service](https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service)
 
+**Base URL:** https://{site-url}/_api/
 
-#### Tags:
+#### Tags
 
- - SharePoint, Collaboration, Documents, Lists
+- Collaboration
+- Documents
+- Lists
+- SharePoint
 
 #### Properties
 
@@ -129,14 +160,18 @@ API for accessing and managing SharePoint sites, lists, and documents
 - [Code Samples](https://github.com/SharePoint/sp-dev-samples)
 
 ### Microsoft Teams API
-API for building apps and bots integrated with Microsoft Teams
+API for building apps and bots integrated with Microsoft Teams.
 
 **Human URL:** [https://learn.microsoft.com/en-us/microsoftteams/platform/](https://learn.microsoft.com/en-us/microsoftteams/platform/)
 
+**Base URL:** https://graph.microsoft.com/v1.0/teams
 
-#### Tags:
+#### Tags
 
- - Teams, Collaboration, Chat, Meetings
+- Chat
+- Collaboration
+- Meetings
+- Teams
 
 #### Properties
 
@@ -155,6 +190,6 @@ API for building apps and bots integrated with Microsoft Teams
 
 ## Maintainers
 
-**FN:** Microsoft
+**FN:** Kin Lane
 
-**Email:** support@microsoft.com
+**Email:** kin@apievangelist.com

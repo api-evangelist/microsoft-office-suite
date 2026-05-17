@@ -109,7 +109,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/onedrive/developer/rest-api/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://learn.microsoft.com/en-us/onedrive/developer/rest-api/getting-started/
       - type: SDKs
         url: https://learn.microsoft.com/en-us/onedrive/developer/rest-api/getting-started/sdk
@@ -174,11 +174,11 @@ common:
     url: https://developer.microsoft.com/
   - type: Support
     url: https://support.microsoft.com/
-  - type: Status
+  - type: StatusPage
     url: https://status.office.com/
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://privacy.microsoft.com/
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.microsoft.com/en-us/servicesagreement
   - type: Integrations
     url: https://www.microsoft.com/en-us/marketplace

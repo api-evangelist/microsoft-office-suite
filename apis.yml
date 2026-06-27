@@ -43,7 +43,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/javascript/api/word
-      - type: Quick Start
+      - type: GettingStarted
         url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/word-quickstart
       - type: Code Samples
         url: https://github.com/OfficeDev/Office-Add-in-samples
@@ -59,7 +59,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/javascript/api/excel
-      - type: Quick Start
+      - type: GettingStarted
         url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery
       - type: Code Samples
         url: https://github.com/OfficeDev/Office-Add-in-samples
@@ -75,7 +75,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/javascript/api/powerpoint
-      - type: Quick Start
+      - type: GettingStarted
         url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/powerpoint-quickstart
       - type: Code Samples
         url: https://github.com/OfficeDev/Office-Add-in-samples
@@ -92,7 +92,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/javascript/api/outlook
-      - type: Quick Start
+      - type: GettingStarted
         url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/outlook-quickstart
       - type: Code Samples
         url: https://github.com/OfficeDev/Office-Add-in-samples
@@ -147,7 +147,7 @@ apis:
         url: https://learn.microsoft.com/en-us/microsoftteams/platform/bots/what-are-bots
       - type: App Manifest
         url: https://learn.microsoft.com/en-us/microsoftteams/platform/resources/schema/manifest-schema
-      - type: Developer Portal
+      - type: DeveloperPortal
         url: https://dev.teams.microsoft.com/
 integrations:
   - name: Microsoft
@@ -170,7 +170,7 @@ tags:
   - Office
   - Productivity
 common:
-  - type: Developer Portal
+  - type: DeveloperPortal
     url: https://developer.microsoft.com/
   - type: Support
     url: https://support.microsoft.com/

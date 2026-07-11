@@ -170,6 +170,8 @@ tags:
   - Office
   - Productivity
 common:
+  - type: OAuthScopes
+    url: scopes/microsoft-office-suite-scopes.yml
   - type: DeveloperPortal
     url: https://developer.microsoft.com/
   - type: Support
@@ -182,3 +184,5 @@ common:
     url: https://www.microsoft.com/en-us/servicesagreement
   - type: Integrations
     url: https://www.microsoft.com/en-us/marketplace
+  - url: https://www.microsoft.com/en-us/microsoft-365/blog/feed/
+    type: Blog

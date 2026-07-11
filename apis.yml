@@ -170,6 +170,12 @@ tags:
   - Office
   - Productivity
 common:
+  - type: VulnerabilityDisclosure
+    url: security/microsoft-office-suite-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/microsoft-office-suite-domain-security.yml
+  - type: Authentication
+    url: authentication/microsoft-office-suite-authentication.yml
   - type: OAuthScopes
     url: scopes/microsoft-office-suite-scopes.yml
   - type: DeveloperPortal

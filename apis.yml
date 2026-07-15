@@ -170,6 +170,8 @@ tags:
   - Office
   - Productivity
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-office-suite-agentic-access.yml
   - type: VulnerabilityDisclosure
     url: security/microsoft-office-suite-vulnerability-disclosure.yml
   - type: DomainSecurity

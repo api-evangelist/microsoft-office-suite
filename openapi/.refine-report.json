@@ -1,0 +1,18 @@
+{
+  "provider": "microsoft-office-suite",
+  "sources": [
+    "microsoft-office-suite-drive-api-openapi.yml",
+    "microsoft-office-suite-mail-api-openapi.yml",
+    "microsoft-office-suite-teams-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-office-suite-drive-api-openapi.yml",
+    "microsoft-office-suite-mail-api-openapi.yml",
+    "microsoft-office-suite-teams-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}

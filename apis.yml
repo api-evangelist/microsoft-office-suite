@@ -19,7 +19,7 @@ image: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sit
 url: https://www.microsoft.com/en-us/microsoft-365
 created: '2024-01-15'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - name: Word API (Office.js)
   description: JavaScript API for building add-ins and automating Microsoft Word.
@@ -35,7 +35,7 @@ apis:
     url: https://learn.microsoft.com/en-us/javascript/api/word
   - type: GettingStarted
     url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/word-quickstart
-  - type: Code Samples
+  - type: CodeExamples
     url: https://github.com/OfficeDev/Office-Add-in-samples
 - name: Excel API (Office.js)
   description: JavaScript API for building add-ins and automating Microsoft Excel.
@@ -51,7 +51,7 @@ apis:
     url: https://learn.microsoft.com/en-us/javascript/api/excel
   - type: GettingStarted
     url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery
-  - type: Code Samples
+  - type: CodeExamples
     url: https://github.com/OfficeDev/Office-Add-in-samples
 - name: PowerPoint API (Office.js)
   description: JavaScript API for building add-ins and automating Microsoft PowerPoint.
@@ -67,7 +67,7 @@ apis:
     url: https://learn.microsoft.com/en-us/javascript/api/powerpoint
   - type: GettingStarted
     url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/powerpoint-quickstart
-  - type: Code Samples
+  - type: CodeExamples
     url: https://github.com/OfficeDev/Office-Add-in-samples
 - name: Outlook API (Office.js)
   description: JavaScript API for building add-ins and automating Microsoft Outlook.
@@ -84,7 +84,7 @@ apis:
     url: https://learn.microsoft.com/en-us/javascript/api/outlook
   - type: GettingStarted
     url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/outlook-quickstart
-  - type: Code Samples
+  - type: CodeExamples
     url: https://github.com/OfficeDev/Office-Add-in-samples
 - name: OneDrive API
   description: API for accessing and managing files stored in OneDrive.
@@ -119,7 +119,7 @@ apis:
   - type: Reference
     url: >-
       https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-net-server-csom-jsom-and-rest-api-index
-  - type: Code Samples
+  - type: CodeExamples
     url: https://github.com/SharePoint/sp-dev-samples
 - name: Microsoft Teams API
   description: API for building apps and bots integrated with Microsoft Teams.

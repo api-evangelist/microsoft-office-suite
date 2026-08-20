@@ -92,6 +92,11 @@ apis:
   baseURL: https://graph.microsoft.com/v1.0/me/drive
   tags:
   - Cloud
+  - File
+  - OneDrive
+  - Storage
+  tags_raw:
+  - Cloud
   - Files
   - OneDrive
   - Storage
@@ -108,6 +113,11 @@ apis:
     https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service
   baseURL: https://{site-url}/_api/
   tags:
+  - Collaboration
+  - Documents
+  - List
+  - SharePoint
+  tags_raw:
   - Collaboration
   - Documents
   - Lists
@@ -129,6 +139,11 @@ apis:
   - Chat
   - Collaboration
   - Meetings
+  - Team
+  tags_raw:
+  - Chat
+  - Collaboration
+  - Meetings
   - Teams
   properties:
   - type: Documentation
@@ -146,6 +161,8 @@ apis:
   humanURL: https://developer.microsoft.com/en-us/graph
   baseURL: https://graph.microsoft.com/v1.0
   tags:
+  - Drives
+  tags_raw:
   - Drive
   properties:
   - type: OpenAPI
@@ -182,6 +199,8 @@ apis:
   humanURL: https://developer.microsoft.com/en-us/graph
   baseURL: https://graph.microsoft.com/v1.0
   tags:
+  - Team
+  tags_raw:
   - Teams
   properties:
   - type: OpenAPI
@@ -208,6 +227,13 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 tags:
+  - Cloud
+  - Collaboration
+  - Documents
+  - Microsoft-365
+  - Office
+  - Productivity
+tags_raw:
   - Cloud
   - Collaboration
   - Documents

@@ -173,7 +173,7 @@ apis:
   humanURL: https://developer.microsoft.com/en-us/graph
   baseURL: https://graph.microsoft.com/v1.0
   tags:
-  - Drives
+  - Drive
   tags_raw:
   - Drive
   properties:

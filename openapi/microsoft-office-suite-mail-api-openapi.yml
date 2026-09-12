@@ -1,4 +1,4 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
   title: Microsoft Graph API - Office Suite Drive Mail API
   description: A subset of Microsoft Graph v1.0 endpoints used to interact with Microsoft Office 365 services - Outlook mail, OneDrive files, and Microsoft Teams. Microsoft Graph is the unified REST API for Microsoft 365 services and uses OAuth 2.0 (Microsoft Entra ID) for authentication.
@@ -90,41 +90,6 @@ paths:
                 type: object
 components:
   schemas:
-    Message:
-      type: object
-      properties:
-        id:
-          type: string
-        subject:
-          type: string
-        bodyPreview:
-          type: string
-        from:
-          type: object
-          properties:
-            emailAddress:
-              type: object
-              properties:
-                name:
-                  type: string
-                address:
-                  type: string
-        toRecipients:
-          type: array
-          items:
-            type: object
-        receivedDateTime:
-          type: string
-          format: date-time
-    MessageCollection:
-      type: object
-      properties:
-        '@odata.context':
-          type: string
-        value:
-          type: array
-          items:
-            $ref: '#/components/schemas/Message'
     SendMailRequest:
       type: object
       required:
@@ -157,6 +122,41 @@ components:
                         type: string
         saveToSentItems:
           type: boolean
+    MessageCollection:
+      type: object
+      properties:
+        '@odata.context':
+          type: string
+        value:
+          type: array
+          items:
+            $ref: '#/components/schemas/Message'
+    Message:
+      type: object
+      properties:
+        id:
+          type: string
+        subject:
+          type: string
+        bodyPreview:
+          type: string
+        from:
+          type: object
+          properties:
+            emailAddress:
+              type: object
+              properties:
+                name:
+                  type: string
+                address:
+                  type: string
+        toRecipients:
+          type: array
+          items:
+            type: object
+        receivedDateTime:
+          type: string
+          format: date-time
   securitySchemes:
     oauth2:
       type: oauth2

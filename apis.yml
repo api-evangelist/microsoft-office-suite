@@ -253,6 +253,8 @@ tags_raw:
   - Office
   - Productivity
 common:
+  - type: Website
+    url: https://www.microsoft.com/
   - type: AgenticAccess
     url: agentic-access/microsoft-office-suite-agentic-access.yml
   - type: VulnerabilityDisclosure
@@ -277,3 +279,5 @@ common:
     url: https://www.microsoft.com/en-us/marketplace
   - url: https://www.microsoft.com/en-us/microsoft-365/blog/feed/
     type: Blog
+x-parent: microsoft
+x-relationship: product
